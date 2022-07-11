@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.wrapper {
+  margin: 50px auto;
+  width: 1000px;
+  display: flex;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8);
+}
+
+.columnLeft {
+  padding: 10px 15px;
+}
+.columnRight {
+  padding: 10px 15px;
+}
+.columnLeft {
+  width: 1000px;
+  background-color: #7694c69e;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnLeft .avatar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+img {
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+  border: #3d588a;
+  /* border-radius: 50%; */
+}
+
+h2.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.columnLeft h2 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.detailContact,
+.detailHobbie {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+table {
+  line-height: 35px;
+  padding-left: 10px;
+}
+table td {
+  padding-left: 20px;
+}
+
+table td a {
+  text-decoration: none;
+  color: black;
+}
+
+table td a:hover {
+  color: #3d588a;
+  transition: 0.2s;
+}
+
+.detailSkills,
+.detailLanguage {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 35px;
+  padding-left: 40px;
+}
+
+.columnRight {
+  background-color: white;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.information {
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+h1.name {
+  letter-spacing: 2px;
+  font-size: 45px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+h3.position {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+hr {
+  margin-left: 10px;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #c2cee5;
+  height: 1px;
+}
+.aboutMe,
+.education,
+.workExp,
+.myProjects {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h4.title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+p.content {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+  padding-bottom: 10px;
+  padding-left: 1px;
+}
+
+i.icon {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.university {
+  display: flex;
+}
+
+p.nameMain {
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-weight: 500;
+  padding-bottom: 0px;
+}
+
+table.tableDetail th {
+  font-weight: 400;
+  padding-right: 20px;
+  float: left;
+}
+
+table.tableDetail {
+  line-height: 30px;
+  padding-left: 0px;
+}
+
+p.content a {
+  text-decoration: none;
+  color: black;
+}
+
+p.content a:hover {
+  color: #3d588a;
+  transition: 0.2s;
+}
